@@ -1,0 +1,26 @@
+{
+  "name": "nodejs_fs_backend",
+  "version": "1.0.0",
+  "description": "NodeJS Backend API Service",
+  "main": "service.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "test": "jest --coverage",
+    "start": "node server"
+  },
+  "keywords": [
+    "NodeJS",
+    "RESTAPI",
+    "service"
+  ],
+  "author": "Kaj Lund",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.4",
+    "nodemon": "^3.0.1"
+  }
+}
